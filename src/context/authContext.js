@@ -11,7 +11,7 @@ const AuthProvider = ({ children }) => {
     if (username === 'naval.ravikant' && password === '05111974') {
       setUser(username);
       localStorage.setItem('user', username);
-      navigate('/movie');
+      navigate('/movie/booking');
     } else {
       alert('Wrong Credentials');
     }

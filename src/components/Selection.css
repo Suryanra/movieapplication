@@ -144,3 +144,8 @@
       color: aliceblue;
       border-radius: 10px;
 }
+
+.book-ticket-btn{
+      cursor: pointer;
+      scale: 1.05;
+}
