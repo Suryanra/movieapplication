@@ -1,31 +1,119 @@
-# Create React App
+# Movie Ticket Booking Web-App
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+This is a React.js based **Movie Ticket Booking Portal**. The application allows users to authenticate, browse and book movie tickets, view their booking history, and manage state efficiently.
 
-## Deploy Your Own
+## 🚀 Live Demo
 
-Deploy your own Create React App project with Vercel.
+**Deployed Link:** [Your Deployed Link Here](#)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/create-react-app&template=create-react-app)
+username : naval.ravikant
 
-_Live Example: https://create-react-template.vercel.app/_
+Password: 05111974
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📜 Features
 
-### `npm start`
+### 🔑 1. Login
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Users authenticate using **hardcoded credentials**:
+  - **Username:** `naval.ravikant`
+  - **Password:** `05111974`
+- Displays error message "Wrong Credentials" on incorrect login.
+- Successful login routes the user to the **Booking Screen**.
 
-The page will reload when you make changes. You may also see any lint errors in the console.
+### 🎥 2. Booking Screen
 
-### `npm test`
+- Displays a **list of movies** with **name, year, ID, and image**.
+- Implements a **real-time search filter** based on movie names.
+- Clicking on a movie card redirects to the **Selection Screen**, passing the selected movie data.
 
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🎟️ 3. Selection Screen
 
-### `npm run build`
+- Users can enter **ticket count, time, and date** (defaults: 1 ticket, 12:00 PM, current date).
+- Clicking **'Book Ticket'**:
+  - Creates a **new ticket entry**.
+  - Shows a **loading animation** & **toast notification** (`Tickets Booked`).
+  - Redirects to the **Activity Screen** after 5 seconds.
 
-Builds the app for production to the `build` folder.
+### 📜 4. Activity Screen
 
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+- Displays a **list of booked tickets** with:
+  - **Movie Name**
+  - **Ticket Count**
+  - **Time & Date**
+  - **Total Amount** (\$25 \* Ticket Count)
+
+### 🔄 State Management
+
+- **Global State Management** using `Context API`.
+- **Persistent Data** stored in **localStorage** to prevent loss on refresh/navigation.
+- **Smooth Navigation** using `react-router-dom`.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js / Next.js
+- **State Management:** Context API + LocalStorage
+- **Routing:** React Router
+- **UI Components:** Figma-based design, TailwindCSS / CSS Modules
+- **Animations & Notifications:** React-Toastify, React-Loader-Spinner
+- **Deployment:** Vercel / Netlify
+
+---
+
+## 📜 Installation & Setup
+
+1️⃣ Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/movie-ticket-booking.git
+cd movie-ticket-booking
+```
+
+2️⃣ Install dependencies:
+
+```bash
+npm install  # or yarn install
+```
+
+3️⃣ Start the development server:
+
+```bash
+npm start  # or yarn start
+```
+
+4️⃣ Open in browser:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🚀 Deployment
+
+The project is deployed on **Vercel/Netlify**:
+
+### Deploy via Vercel:
+
+```bash
+npm install -g vercel
+vercel
+```
+
+### Deploy via Netlify:
+
+```bash
+npm install -g netlify-cli
+netlify deploy
+```
+
+---
+
+## 📸 Screenshots
+
+
+
+---
