@@ -57,9 +57,9 @@ Password: 05111974
 - **Frontend:** React.js / Next.js
 - **State Management:** Context API + LocalStorage
 - **Routing:** React Router
-- **UI Components:** Figma-based design, TailwindCSS / CSS Modules
+- **UI Components:** Figma-based design, CSS Modules
 - **Animations & Notifications:** React-Toastify, React-Loader-Spinner
-- **Deployment:** Vercel / Netlify
+- **Deployment:** Vercel
 
 ---
 
