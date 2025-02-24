@@ -13,7 +13,8 @@ const AuthProvider = ({ children }) => {
       localStorage.setItem('user', username);
       navigate('/movie/booking');
     } else {
-      alert('Wrong Credentials');
+      alert('Wrong Credentials ' );
+      alert('USE: username: naval.ravikant and password:05111974' );
     }
   };
 
