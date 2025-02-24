@@ -1,0 +1,146 @@
+.selection-container{
+      /* background-color: green; */
+      width:100%;
+      height:100%;
+      box-sizing: border-box;
+
+}
+.selection-navbar-container{
+      box-sizing: border-box;
+      width:100%;
+      height:40%;
+      display: flex;
+      flex-direction: row;
+      /* background-color: grey; */
+      justify-content: space-between;
+      padding: 5px;
+
+}
+.selection-image-container{
+      padding:10px;      
+      box-sizing: border-box;
+      width:70%;
+      height:100%;
+      border-radius: 10px;
+      overflow: hidden;
+}
+.selection-image{
+      width:100%;
+      height:100%;
+      border-radius: 10px;
+      box-sizing: border-box;
+
+}
+
+.selection-container .user-name{
+      /* border:2px solid red; */
+      display: flex;
+      width:30%;
+      height:100%;
+      padding-top:30px;
+      justify-content: center;
+      align-items: flex-start;
+      box-sizing: border-box;
+}
+
+
+.details-fillup{
+      width:99%;
+      height:59%;
+      display: flex;
+      /* border:1px solid red; */
+      margin:5px;
+      padding: 15px;
+      box-sizing: border-box;
+      flex-direction: column;
+      justify-content: space-evenly;
+}
+
+.details-fillup .movie-name{
+      width:100%;
+      font-size: 2rem
+}
+
+.ticket-details{
+      width:100%;
+      /* border: 2px solid red;; */
+      font-size: x-large;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+}
+
+.ticket-details .btn{
+      width:40px;
+      height:40px;
+      /* border:1px solid rgb(0, 0, 0); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* background-color: white; */
+      font-weight: 700;
+      cursor: pointer;
+      flex-direction: row;
+}
+.ticket-count{
+      width:70px;
+      height:40px;
+      /* border:2px solid red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      color:white;
+      border-radius: 10px;;
+
+}
+.show-timing{
+      padding: 5px;
+      margin:10px;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+      background-color: grey;
+      justify-content: center;
+      align-items: center;
+}
+
+.show-timing {
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.show-timing.active-time {
+  background-color: black;
+}
+
+.input-btn{
+      padding:5px;
+      margin:5px;
+      outline: none;
+}
+.box1{
+      width:200px;
+}
+
+.box2{
+      display: flex;
+      flex-direction: row;
+      gap:10px;
+}
+
+
+.book-ticket-btn{
+      max-width: 250px;
+      height: 40px;
+      font-size: large;
+      font-weight: 500;
+      background-color: black;
+      color: aliceblue;
+      border-radius: 10px;
+}

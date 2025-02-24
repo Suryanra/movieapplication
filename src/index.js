@@ -1,15 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import ReactDOM from 'react-dom/client';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { sendToVercelAnalytics } from './vitals';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { AuthProvider } from './context/authContext';
+import { BookingProvider } from './context/BookingContext';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <Router>
+    <AuthProvider>
+      <BookingProvider>
+        <App />
+      </BookingProvider>
+    </AuthProvider>
+  </Router>
 );
-
-reportWebVitals(sendToVercelAnalytics);
