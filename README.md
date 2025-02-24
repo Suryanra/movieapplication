@@ -4,7 +4,7 @@ This is a React.js based **Movie Ticket Booking Portal**. The application allow
 
 ## 🚀 Live Demo
 
-**Deployed Link:** [Your Deployed Link Here](#)
+**Deployed Link:** [https://movieapplication-rosy.vercel.app/](#)
 
 username : naval.ravikant
 
@@ -68,8 +68,8 @@ Password: 05111974
 1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/movie-ticket-booking.git
-cd movie-ticket-booking
+git clone https://github.com/Suryanra/movieapplication.git
+cd movieapplication
 ```
 
 2️⃣ Install dependencies:
@@ -94,26 +94,20 @@ http://localhost:3000
 
 ## 🚀 Deployment
 
-The project is deployed on **Vercel/Netlify**:
+The project is deployed on **Vercel**:
 
-### Deploy via Vercel:
-
-```bash
-npm install -g vercel
-vercel
-```
-
-### Deploy via Netlify:
-
-```bash
-npm install -g netlify-cli
-netlify deploy
-```
 
 ---
 
 ## 📸 Screenshots
 
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
 
 
 ---
