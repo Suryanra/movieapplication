@@ -15,7 +15,7 @@ const movies = [
     id: 3,
     name: "The Dark Knight",
     releaseDate: "2008-07-18",
-    imageUrl: "dark Knight.jpg"
+    imageUrl: "darkKnight.jpg"
   },
   {
     id: 4,
