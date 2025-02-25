@@ -34,7 +34,7 @@ const Activity = () => {
             {bookings.map((booking, index) => (
               <tr key={index}>
                 <td>{index + 1}</td>
-                <td>{booking.movie}</td>
+                <td>{booking.name}</td>
                 <td>{booking.ticketCount}</td>
                 <td>${booking.amount}</td>
                 <td>{booking.time}</td>
